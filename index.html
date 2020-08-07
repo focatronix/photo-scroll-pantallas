@@ -1,0 +1,49 @@
+<html>
+<head> 
+
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+    
+    <body>
+        
+     <!--   <div class="gallery" id="gallery"> -->
+  
+  <!-- <div class="gallery-item"><img src="https://source.unsplash.com/collection/190726"></div> -->
+
+<div class="botonera">
+<input id="file" type="file" multiple />
+<button onClick="go()">Cargar Fotos</button>
+<button onClick="pageScroll()">Auto Scroll</button>
+   
+</div>
+            
+<div class="gallery" id="gallery"></div>
+
+<!-- <script type="text/javascript">
+  function go() {
+  const fileInput = document.getElementById('file');
+  const outputDiv = document.getElementById('gallery');
+  let html = '';
+  for (const file of fileInput.files) {
+    html += '<div class="gallery-item"><img src="images/' + file.name + '" /></div>';
+      //<div class="gallery-item"><img src="images/' + file.name + '" /></div> 
+      //<div class="gallery-item"><img src="https://source.unsplash.com/collection/190728"></div>
+  }
+      
+  outputDiv.innerHTML = html
+}
+</script> -->
+  
+</div>
+<div class="botonera">    
+<button onClick="reset()">Reset</button>   
+</div>     
+
+<script src="index.js"></script>
+   
+    </body>
+
+
+</html>
